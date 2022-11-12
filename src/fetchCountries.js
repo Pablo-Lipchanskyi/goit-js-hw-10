@@ -7,5 +7,5 @@ function fetchCountries(name) {
                 throw new Error(response.status);
             }
             return response.json();
-        }).then(name => console.log(name))
+        })
 }
